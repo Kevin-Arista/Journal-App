@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const Journal = require('./models/journal');
 
 
-const port = process.env.PORT;
+const port = process.env.PORT || 8080;
 const mongoUri = process.env.URI;
 const server = express();
 
